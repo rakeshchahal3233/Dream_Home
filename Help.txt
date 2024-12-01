@@ -1,0 +1,27 @@
+npm create vite@latest client  //This is for create the client folder with select framwork with latest version
+
+//Now install tailwind css
+search tailwind vite
+
+//React icon
+npm i react-icons
+
+//Redux toolkit to make the data global , this will install at client side
+npm install @reduxjs/toolkit react-redux
+
+//redux persist  => this is use when we have save some data on localstorage and by using persist the data is add automaticaly we not use mannul work like localstorage.setItem() etc.
+npm i redux-persist
+
+//Firebase install on client side
+npm install firebase
+
+
+//How to run the backend
+//go inside api folder 
+npm run dev
+
+//How to run the frontend
+//go to client folder
+npm run dev
+
+http://localhost:5173
